@@ -78,4 +78,5 @@ string PhoneNumber::GetInternationalNumber() const {
     PhoneNumber r("+-");
     cout << r.GetCountryCode() << "||" << r.GetCityCode() << "||" << r.GetLocalNumber() << "||" << r.GetInternationalNumber() << endl;
     return 0;
-}*/
+}
+*/
