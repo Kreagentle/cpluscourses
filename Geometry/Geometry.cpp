@@ -83,6 +83,7 @@ shared_ptr<Figure> CreateFigure(istringstream& s) {
          s >> r;
          return make_shared <Circle>(r);
     }
+    return 0;
 }; 
 
 int main() {
